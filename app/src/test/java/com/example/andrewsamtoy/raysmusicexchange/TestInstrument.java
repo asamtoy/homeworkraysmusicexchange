@@ -21,7 +21,8 @@ public class TestInstrument {
         piano = new Piano("Steinway", 20000.0, 40000.0);
         harp = new Harp("Horngacher", 5000.0, 10000.0);
     }
-    @Test
+
+ @Test
     public void pianoHasBuyingPrice(){
         assertEquals(20000.0, piano.getBuyingPrice(), .01);
     }

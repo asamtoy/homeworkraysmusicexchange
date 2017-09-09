@@ -4,10 +4,10 @@ package com.example.andrewsamtoy.raysmusicexchange;
  * Created by andrewsamtoy on 9/9/17.
  */
 
-public class GuitarPicks extends Accessory implements Sellable {
+public class GuitarPick extends Accessory implements Sellable {
 
-    public GuitarPicks(String brand, double buyingPrice, double sellingPrice) {
-        super(brand, sellingPrice, buyingPrice);
+    public GuitarPick(String name, double buyingPrice, double sellingPrice) {
+        super(name, sellingPrice, buyingPrice);
 
     }
 

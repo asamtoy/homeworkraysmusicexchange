@@ -11,7 +11,6 @@ public class Piano extends Instrument implements Playable {
         this.sellingPrice = sellingPrice;
 
     }
-    @Override
     public String play() {
         return "Chord";
     }

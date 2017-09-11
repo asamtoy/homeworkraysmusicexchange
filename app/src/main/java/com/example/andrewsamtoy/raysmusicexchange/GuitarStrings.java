@@ -14,11 +14,11 @@ public class GuitarStrings extends Accessory implements Sellable {
 
     @Override
     public double buyingPrice() {
-        return 0;
+        return buyingPrice();
     }
 
     @Override
     public double sellingPrice() {
-        return 0;
+        return sellingPrice();
     }
 }

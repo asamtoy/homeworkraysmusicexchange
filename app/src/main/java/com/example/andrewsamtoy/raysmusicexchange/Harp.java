@@ -11,18 +11,17 @@ public class Harp extends Instrument implements Playable, Sellable {
         this.sellingPrice = sellingPrice;
     }
 
-    @Override
     public String play() {
         return "Heavenly Progression";
     }
 
     @Override
     public double buyingPrice() {
-        return 0;
+        return buyingPrice();
     }
 
     @Override
     public double sellingPrice() {
-        return 0;
+        return sellingPrice();
     }
 }

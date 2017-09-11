@@ -10,21 +10,24 @@ public class Guitar extends Instrument implements Playable, Sellable {
         this.buyingPrice = buyingPrice;
         this.sellingPrice = sellingPrice;
     }
-
-
-    @Override
+    
     public String play() {
         return "Strum";
     }
 
     @Override
+    public String brand() {
+        return brand;
+    }
+
+    @Override
     public double buyingPrice() {
-        return 100;
+        return buyingPrice;
     }
 
     @Override
     public double sellingPrice() {
-        return 200;
+        return sellingPrice;
     }
 
 //    @Override

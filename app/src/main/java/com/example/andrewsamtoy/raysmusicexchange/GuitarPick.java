@@ -6,18 +6,23 @@ package com.example.andrewsamtoy.raysmusicexchange;
 
 public class GuitarPick extends Accessory implements Sellable {
 
-    public GuitarPick(String name, double buyingPrice, double sellingPrice) {
+    private GuitarPick(String name, double buyingPrice, double sellingPrice) {
         super(name, sellingPrice, buyingPrice);
 
     }
 
     @Override
+    public String brand() {
+        return brand();
+    }
+
+    @Override
     public double buyingPrice() {
-        return 0.05;
+        return buyingPrice;
     }
 
     @Override
     public double sellingPrice() {
-        return 0.25;
+        return sellingPrice;
     }
 }

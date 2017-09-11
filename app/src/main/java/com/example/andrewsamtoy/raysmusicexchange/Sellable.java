@@ -5,10 +5,8 @@ package com.example.andrewsamtoy.raysmusicexchange;
  */
 
 public interface Sellable {
+    String brand();
     double buyingPrice();
     double sellingPrice();
 
-//    Double markup(){
-//        return Double margin(sellingPrice - buyingPrice);
-//    }
 }
